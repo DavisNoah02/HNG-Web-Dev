@@ -191,7 +191,8 @@ ul li {
     padding: 15px;
     border:none;
     transition: all .8s;
-    text-align: justify;
+    text-align: left;
+
     border-radius: 5px;
     background: linear-gradient(to top,rgb(69, 93, 73),rgb(124, 136, 132) 50%);
   }
