@@ -160,6 +160,7 @@ ul li {
     text-align: center;
     font-size: 1rem;
     color: #ebeeef;  
+    background-color: #656e7f;
 }
 #links a:hover {
     background-color: #16294b;  
@@ -218,7 +219,7 @@ ul li {
     .menu-icon {
         position: fixed;
         top:1px;
-        color: #06be1b;
+        color: #15fb00;
         left: 10px; 
         z-index: 1000; 
         display: block; 
@@ -245,6 +246,7 @@ ul li {
 
     header, footer {
         padding: 1.0rem 0;
+        background-color: #35338a;
     }
 
     main {
