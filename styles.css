@@ -216,8 +216,8 @@ ul li {
         font-size: 1.25rem;
     }
     .menu-icon {
-        position: absolute;
-        top: 10px;
+        position: fixed;
+        top:1px;
         color: #06be1b;
         left: 10px; 
         z-index: 1000; 
@@ -244,7 +244,7 @@ ul li {
     } 
 
     header, footer {
-        padding: 0.5rem 0;
+        padding: 1.0rem 0;
     }
 
     main {
