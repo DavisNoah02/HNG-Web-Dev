@@ -29,7 +29,7 @@ body {
     min-height: 100vh;
 }
  footer {
-    background-color: #414175;
+    background-color: #58586b;
     color: rgb(245, 249, 246);
     text-align: center;
     width: 100%;
@@ -197,7 +197,7 @@ ul li {
     border:none;
     transition: all .8s;
     text-align: left;
-    background-color: #6b6b7e;
+    background-color: #545467;
     border-radius: 5px;
     /* background: linear-gradient(to top,rgb(69, 93, 73),rgb(124, 136, 132) 50%); */
   }
@@ -249,7 +249,7 @@ ul li {
 
     header, footer {
         padding: 1.0rem 0;
-        background-color: #35338a;
+        background-color: #58586b;
     }
 
     main {
