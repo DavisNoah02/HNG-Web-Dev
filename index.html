@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Goals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <span id="current-time" data-testid="currentDay"></span>
+    <span id="current-time-utc" data-testid="currentTimeUTC"></span>
+
+    <header>
+        <nav>
+            <div class="menu-icon">&#9776;</div>
+            <ul>
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#tech-goals">Goals</a></li>
+                <li><a href="#links">Links</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+        <!-- profile section -->
+        <section id="profile" class="section">
+            <div class="content">
+                <h2>WHO AM I ?</h2>
+                
+                <img src="Images/noaImage.jpeg" width="500px" height="500px" alt="Noah Dave  Profile Picture"  data-testid="slackProfilePicture">
+                <p  class="slackDisplayName" data-testid="slackDisplayName">I am Noah Dave <br><br> <b> A Web Developer</b></p>
+                <p  data-testid="slackEmail"><a class="slackEmail" href="mailto:m.davenoa@gmail.com">m.davenoa@gmail.com</a></p>
+
+            </div>
+        </section>
+
+        <!-- Tech Goals section -->
+        <section id="tech-goals" class="section">
+            <div class="content">
+             <h2>Front-end tech goals</h2>
+             <div class="goal-container">
+                <div class="goal">
+                  <h3>Master the fundamentals</h3>
+                <p>I aim to acquire strong understanding of HTML, CSS,and JavaScript fundamentals.Being comfortable with these core technologies
+                    will allow me to build basic and simple websites and  web application at beginer levels.</p>
+                </div>
+                <div class="goal">
+                  <h3>Learn a modern JavaScript framework</h3>
+                <p>Master one of the frameworks among React, Angular, or Vue.js and backend like Nodejs and Express that will enable me
+                    to build my own portfolio and develop other complex projects.</p>
+                </div>
+                <div class="goal">
+                  <h3>Develop strong UI/UX skills</h3>
+                <p>While technical skills are essential, understanding user interface (UI) and user experience (UX) principles is
+                    crucial for creating effective and user-friendly websites. I will focus on usability, responsiveness, and visual
+                    design will help me craft interfaces that are both aesthetically pleasing and intuitive for users.</p>
+                </div>
+                <div class="goal">
+                    <h3>Explore Freelancing in Front-End Development</h3>
+                    <p>Freelancing in front-end development offers a flexible and rewarding career path.As a freelancer,i will have the
+                        opportunity to leverage my skills in HTML, CSS, and JavaScript to design visually
+                        appealing and user-friendly interfaces. Understanding client needs and translating them into functional web designs
+                        is key to succeeding in this field.</p>
+                </div>
+                
+            
+            </div>
+        </section>
+        
+        <!-- Various links -->
+        <section id="links" class="section">
+                <h3>For more info </h3>
+                <ul>
+                    <li><a href="https://hng.tech/learn" data-testid="hngLink" >HNG Learn</a></li>
+                    <li><a href="https://keyword.dog" data-testid="keywordLink" >Keyword Dog</a></li>
+                    <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink" >Scrape Any Web</a></li>
+                </ul>
+            
+        </section>
+        </div>
+    </main>
+   <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Tech Goals</p>
+    </footer>
+    <script src="goals.js"></script>
+</body>
+</html>
