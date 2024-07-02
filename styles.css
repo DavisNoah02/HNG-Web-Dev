@@ -7,7 +7,7 @@
     position: fixed;
     top: 10px; 
     right: 40px; 
-    background-color: #412d72;
+    background-color: #4f4665;
     color: #fff;
     padding: 30px 20px;
     border-radius: 15px;
@@ -83,7 +83,7 @@ nav ul li a:hover{
     transition: all .6s;
 }
 #current-time:hover {
-    background-color: #14408c; 
+    background-color: #222b3a; 
     transform: scale(1.1); 
 }
 
@@ -206,7 +206,7 @@ ul li {
     background-position: left bottom;
     transform: scale(1.1); 
     border: none;
-    box-shadow:0 0 20px rgb(8, 44, 116) ;
+    box-shadow:0 0 20px rgb(114, 109, 171) ;
   }
 
   .goal h3 {
@@ -223,7 +223,7 @@ ul li {
     .menu-icon {
         position: fixed;
         top:1px;
-        color: #15fb00;
+        color: #09ad14;
         left: 10px; 
         z-index: 1000; 
         display: block; 
